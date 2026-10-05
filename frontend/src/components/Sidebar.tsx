@@ -34,8 +34,6 @@ export function Sidebar({ activeTab, onSelectTab, isRunning }: SidebarProps) {
       id: "reports" as SidebarTab,
       label: "Research Reports",
       icon: FileText,
-      badge: "0",
-      badgeColor: "bg-slate-100 text-slate-600 border-slate-200"
     },
     {
       id: "settings" as SidebarTab,
