@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "No-RAG": {
+      "Factual Accuracy": "0.0%",
+      "Hallucination Rate": "42.5%",
+      "Citation Accuracy": "0.0%",
+      "Reasoning Quality (1-5)": "2.38",
+      "Avg Retrieval Calls": "0.0",
+      "Avg Chunks Retrieved": "0.0"
+    },
+    "Basic RAG": {
+      "Factual Accuracy": "0.0%",
+      "Hallucination Rate": "32.5%",
+      "Citation Accuracy": "67.5%",
+      "Reasoning Quality (1-5)": "2.12",
+      "Avg Retrieval Calls": "1.0",
+      "Avg Chunks Retrieved": "3.0"
+    },
+    "Agentic RAG": {
+      "Factual Accuracy": "0.0%",
+      "Hallucination Rate": "10.0%",
+      "Citation Accuracy": "90.0%",
+      "Reasoning Quality (1-5)": "2.50",
+      "Avg Retrieval Calls": "1.0",
+      "Avg Chunks Retrieved": "6.0"
+    }
+  },
+  "detailed_runs": {
+    "no_rag": [
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.5,
+        "citation_accuracy": 0.0,
+        "reasoning_quality": 2.0,
+        "rationale": "The candidate answer fails to provide the expected financial metrics ($46.7 billion revenue, up 56% from a year ago) specified in the golden reference, incorrectly stating that no results exist. No citations were provided to back the claims made.",
+        "retrieval_calls": 0,
+        "chunks_retrieved": 0
+      },
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.4,
+        "citation_accuracy": 0.0,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/3 key facts heuristically.",
+        "retrieval_calls": 0,
+        "chunks_retrieved": 0
+      },
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.4,
+        "citation_accuracy": 0.0,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/3 key facts heuristically.",
+        "retrieval_calls": 0,
+        "chunks_retrieved": 0
+      },
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.4,
+        "citation_accuracy": 0.0,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/5 key facts heuristically.",
+        "retrieval_calls": 0,
+        "chunks_retrieved": 0
+      }
+    ],
+    "basic_rag": [
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 1.0,
+        "citation_accuracy": 0.0,
+        "reasoning_quality": 1.0,
+        "rationale": "The candidate answer provides a completely incorrect revenue figure ($96.2 billion instead of $46.7 billion), resulting in total factual inaccuracy and an unsupported/hallucinated citation.",
+        "retrieval_calls": 1,
+        "chunks_retrieved": 3
+      },
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.1,
+        "citation_accuracy": 0.9,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/3 key facts heuristically.",
+        "retrieval_calls": 1,
+        "chunks_retrieved": 3
+      },
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.1,
+        "citation_accuracy": 0.9,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/3 key facts heuristically.",
+        "retrieval_calls": 1,
+        "chunks_retrieved": 3
+      },
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.1,
+        "citation_accuracy": 0.9,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/5 key facts heuristically.",
+        "retrieval_calls": 1,
+        "chunks_retrieved": 3
+      }
+    ],
+    "agentic_rag": [
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.1,
+        "citation_accuracy": 0.9,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/3 key facts heuristically.",
+        "retrieval_calls": 1,
+        "chunks_retrieved": 6
+      },
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.1,
+        "citation_accuracy": 0.9,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/3 key facts heuristically.",
+        "retrieval_calls": 1,
+        "chunks_retrieved": 6
+      },
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.1,
+        "citation_accuracy": 0.9,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/3 key facts heuristically.",
+        "retrieval_calls": 1,
+        "chunks_retrieved": 6
+      },
+      {
+        "factual_accuracy": 0.0,
+        "hallucination_rate": 0.1,
+        "citation_accuracy": 0.9,
+        "reasoning_quality": 2.5,
+        "rationale": "Matched 0/5 key facts heuristically.",
+        "retrieval_calls": 1,
+        "chunks_retrieved": 6
+      }
+    ]
+  }
+}

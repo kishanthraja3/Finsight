@@ -1,0 +1,143 @@
+{
+  "T1": {
+    "query": "Evaluate Apple's Services revenue growth, gross margin impact, and Item 1A regulatory risks in European markets.",
+    "metrics": {
+      "run_id": "T1_Apple",
+      "logical_calls": 13,
+      "http_requests": 13,
+      "prompt_tokens": 15953,
+      "completion_tokens": 6198,
+      "total_tokens": 22151,
+      "retries": 0,
+      "rate_limit_events": 0,
+      "failed_requests": 0,
+      "total_wait_duration_s": 0.0,
+      "calls_by_component": {
+        "planner": 1,
+        "risk": 1,
+        "synthesis": 8,
+        "gap_fill": 3
+      },
+      "models_used": [
+        "openai/gpt-oss-20b",
+        "openai/gpt-oss-120b"
+      ],
+      "finish_reasons": [
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "stop",
+        "length"
+      ],
+      "json_repairs": 0,
+      "fallbacks": 0,
+      "start_time": 1791095802.0771327
+    },
+    "tasks_count": 3,
+    "findings_count": 1,
+    "qc_passed": false,
+    "report_excerpt": "# FinSight Institutional Research Report\n**Target Companies**: Apple  \n**Research Focus**: Evaluate Apple's Services revenue growth, gross margin impact, and Item 1A regulatory risks in European markets.  \n**Review Status**: Reviewed (1/1 claims approved; 1 figures numerically verified)  \n**Audit Status**: Review Failed | Human Review Complete  \n\n---\n\n## Summary\nApple's Services gross margin percentage was 70.8% in FY2023, 73.9% in FY2024, and 75.4% in FY2025; total company gross margin was 44.1% in FY2023, 46.2% in FY2024, and 46.9% in FY2025. [finding_001]\n\n## Coverage\n\n| Task ID | Company | Query Clause / Sub-Question | Cited Chunks | Retrieved-But-Unused Chunks | Final Finding | QC Status | Evidence Limitation |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| task_001 | Apple | Analyze Apple's Services revenue growth trajectory over the latest three fiscal years (FY2023\u2013FY2025). | apple_10_k_fy2025_item_8_financial_statemen_082, apple_10_k_fy2025_item_8_financial_statem"
+  },
+  "T2": {
+    "query": "Evaluate NVIDIA's Data Center revenue trajectory, gross margin trend, and export-control risks to China.",
+    "metrics": {
+      "run_id": "T2_NVIDIA",
+      "logical_calls": 13,
+      "http_requests": 13,
+      "prompt_tokens": 14346,
+      "completion_tokens": 6200,
+      "total_tokens": 20546,
+      "retries": 0,
+      "rate_limit_events": 0,
+      "failed_requests": 0,
+      "total_wait_duration_s": 0.0,
+      "calls_by_component": {
+        "planner": 1,
+        "risk": 1,
+        "synthesis": 8,
+        "gap_fill": 3
+      },
+      "models_used": [
+        "openai/gpt-oss-20b",
+        "openai/gpt-oss-120b"
+      ],
+      "finish_reasons": [
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length"
+      ],
+      "json_repairs": 1,
+      "fallbacks": 0,
+      "start_time": 1791095854.5747616
+    },
+    "tasks_count": 3,
+    "findings_count": 2,
+    "qc_passed": false,
+    "report_excerpt": "# FinSight Institutional Research Report\n**Target Companies**: NVIDIA  \n**Research Focus**: Evaluate NVIDIA's Data Center revenue trajectory, gross margin trend, and export-control risks to China.  \n**Review Status**: Reviewed (2/2 claims approved; 0 figures numerically verified)  \n**Audit Status**: Review Failed | Human Review Complete  \n\n---\n\n## Summary\nNVIDIA: Structured synthesis output could not be generated. Evidence retrieved requires targeted replanning. [finding_001] U.S. export controls targeting AI GPUs may restrict downstream users in China, limiting NVIDIA's ability to sell, service, or transfer its products and negatively impacting revenue and cash flow. [finding_003]\n\n## Coverage\n\n| Task ID | Company | Query Clause / Sub-Question | Cited Chunks | Retrieved-But-Unused Chunks | Final Finding | QC Status | Evidence Limitation |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| task_001 | NVIDIA | Analyze NVIDIA's Data Center revenue trajectory across recent fiscal"
+  },
+  "T3": {
+    "query": "Evaluate Microsoft's Azure growth, operating margin trend, and European regulatory risks.",
+    "metrics": {
+      "run_id": "T3_Microsoft",
+      "logical_calls": 13,
+      "http_requests": 13,
+      "prompt_tokens": 13655,
+      "completion_tokens": 6200,
+      "total_tokens": 19855,
+      "retries": 0,
+      "rate_limit_events": 0,
+      "failed_requests": 0,
+      "total_wait_duration_s": 0.0,
+      "calls_by_component": {
+        "planner": 1,
+        "risk": 1,
+        "synthesis": 8,
+        "gap_fill": 3
+      },
+      "models_used": [
+        "openai/gpt-oss-20b",
+        "openai/gpt-oss-120b"
+      ],
+      "finish_reasons": [
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length",
+        "length"
+      ],
+      "json_repairs": 0,
+      "fallbacks": 0,
+      "start_time": 1791095938.9837363
+    },
+    "tasks_count": 3,
+    "findings_count": 2,
+    "qc_passed": false,
+    "report_excerpt": "# FinSight Institutional Research Report\n**Target Companies**: Microsoft  \n**Research Focus**: Evaluate Microsoft's Azure growth, operating margin trend, and European regulatory risks.  \n**Review Status**: Reviewed (2/2 claims approved; 0 figures numerically verified)  \n**Audit Status**: Review Failed | Human Review Complete  \n\n---\n\n## Summary\nMicrosoft: Structured synthesis output could not be generated. Evidence retrieved requires targeted replanning. [finding_001] Microsoft: Structured synthesis output could not be generated. Evidence retrieved requires targeted replanning. [finding_003]\n\n## Coverage\n\n| Task ID | Company | Query Clause / Sub-Question | Cited Chunks | Retrieved-But-Unused Chunks | Final Finding | QC Status | Evidence Limitation |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| task_001 | Microsoft | Evaluate Microsoft's Azure and Intelligent Cloud revenue growth trajectory. | microsoft_10_k_fy2026_item_7_more_personal_comp_123 | None | Microsoft: Structur"
+  }
+}

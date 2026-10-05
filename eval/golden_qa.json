@@ -1,0 +1,66 @@
+[
+  {
+    "id": "qa_01",
+    "company": "NVIDIA",
+    "question": "What was NVIDIA's total revenue for the second quarter of fiscal 2027 (Q2 FY2027)?",
+    "golden_answer": "NVIDIA reported record revenue for the second quarter ended July 26, 2026, of $46.7 billion, up 56% from a year ago.",
+    "key_facts": ["$46.7 billion", "Q2 FY2027", "56% from a year ago"],
+    "expected_doc": "NVIDIA_Earnings_Q2_FY2027.html"
+  },
+  {
+    "id": "qa_02",
+    "company": "NVIDIA",
+    "question": "What was NVIDIA's Data Center revenue in Q2 FY2027?",
+    "golden_answer": "Data Center revenue was a record $41.1 billion, up 67% from the previous year.",
+    "key_facts": ["$41.1 billion", "Data Center", "up 67%"],
+    "expected_doc": "NVIDIA_Earnings_Q2_FY2027.html"
+  },
+  {
+    "id": "qa_03",
+    "company": "Apple",
+    "question": "What were Apple's primary revenue drivers and segment performance reported in Q3 FY2026 earnings?",
+    "golden_answer": "Apple reported quarterly revenue of $94.9 billion, with iPhone continuing to be the primary revenue driver, complemented by growth in Services reaching an all-time record.",
+    "key_facts": ["$94.9 billion", "iPhone", "Services"],
+    "expected_doc": "Apple_Earnings_Q3_FY2026.html"
+  },
+  {
+    "id": "qa_04",
+    "company": "Apple",
+    "question": "What are the major risk factors identified by Apple in its Item 1A Risk Factors filing?",
+    "golden_answer": "Key risk factors include global macroeconomic volatility, intense competitive pressures, supply chain concentrations, international trade restrictions and tariffs, and regulatory compliance scrutiny around digital services and app store practices.",
+    "key_facts": ["supply chain", "macroeconomic", "competition", "regulatory scrutiny", "Item 1A"],
+    "expected_doc": "APPLE_10K_FY2025.html"
+  },
+  {
+    "id": "qa_05",
+    "company": "Microsoft",
+    "question": "What was Microsoft's revenue growth driven by in its Q4 FY2026 earnings release?",
+    "golden_answer": "Microsoft Cloud revenue grew significantly, driven by strong Azure consumption growth and demand for artificial intelligence services across commercial workloads.",
+    "key_facts": ["Microsoft Cloud", "Azure", "AI services"],
+    "expected_doc": "Microsoft_Earnings_Q4_FY2026.html"
+  },
+  {
+    "id": "qa_06",
+    "company": "Microsoft",
+    "question": "What are Microsoft's principal risks concerning cybersecurity and cloud infrastructure in Item 1A?",
+    "golden_answer": "Microsoft highlights risks associated with cybersecurity vulnerabilities, data breaches, disruptions to cloud infrastructure and datacenter operations, as well as high capital expenditures required for AI infrastructure expansion.",
+    "key_facts": ["cybersecurity", "cloud infrastructure", "datacenters", "capital expenditures"],
+    "expected_doc": "Microsoft_10K_FY2026.html"
+  },
+  {
+    "id": "qa_07",
+    "company": "NVIDIA",
+    "question": "What regulatory and geopolitical risks does NVIDIA face regarding exports and supply chain?",
+    "golden_answer": "NVIDIA faces risks from US export control restrictions on advanced computing chips and semiconductor manufacturing equipment to China and other markets, along with concentrated dependence on third-party foundries such as TSMC.",
+    "key_facts": ["export control", "China", "TSMC", "foundry concentration"],
+    "expected_doc": "NVIDIA_10K_FY2026.html"
+  },
+  {
+    "id": "qa_08",
+    "company": "Apple",
+    "question": "What was Apple's gross margin trend as discussed in MD&A (Management's Discussion and Analysis)?",
+    "golden_answer": "Apple's gross margin was supported by favorable mix shift toward high-margin Services and cost efficiencies in products, offset by foreign exchange fluctuations and component cost dynamics.",
+    "key_facts": ["Services mix", "gross margin", "foreign exchange", "component costs"],
+    "expected_doc": "Apple_10Q_Latest.html"
+  }
+]
